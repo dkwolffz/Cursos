@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        
+        <h2>Formulário</h2>
+        <form action="/exercicio02/destino.html" method="post">
+            <input type="text" name="nome" id="nome-id" required autofocus placeholder="Preencha seu nome.">
+            
+            <label for="Email-id">E-mail:</label>
+            <input type="email" name="Email" id="Email-id" size="30" required>
+            
+            <label for="Telefone-id">Telefone:</label>
+            <input type="tel" name="Telefone" id="Telefone-id" maxlength="11" size="9" required>
+            
+            <input type="number" name="filhos" id="filho" min = "0" max="5" value="1" size="10">
+            <label for="Data de Aniversario">Data de Aniversario</label>
+            <input type="date" name="aniversario" id="aniversario-id" size="9" required>
+            
+            <label for="website">website:</label>
+            <input type="url" name="website" id="website-id" maxlength="11" size="9" required>
+            <input type="submit" name="Enviar" id="Enviar-id">
+        </form>
+        
+    
+    </body>
+</html>
